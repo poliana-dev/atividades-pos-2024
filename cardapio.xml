@@ -1,15 +1,17 @@
 <?xml version='1.0' encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
-    <refeicao id="R01" >
+    <prato id="R01" >
         <nome>Macarronada</nome>
         <descricao>Macarrão com sardinha</descricao>
         <ingredientes>Macarrão, sardinha, tomate, cebola e molho de tomate</ingredientes>
         <preco>6.00 reais</preco>
         <calorias>120 calorias</calorias>
-        <tempo>10 minutos</tempo>
-    </refeicao>
+        <tempoPreparo>10 minutos</tempoPreparo>
+    </prato>
+</cardapio>
 
-    <refeicao id="R02">
+    <!-- <refeicao id="R02">
         <nome>Pizza</nome>
         <descricao>Pizza de frango com borda</descricao>
         <ingredientes>Massa de pizza, peito de frango, tomates, queijo mussarela e catupiry</ingredientes>
@@ -43,6 +45,4 @@
         <preco>15.00 reais</preco>
         <calorias>120 calorias</calorias>
         <tempo>20 minutos</tempo>
-    </refeicao>
-
-</cardapio>
+    </refeicao> -->
