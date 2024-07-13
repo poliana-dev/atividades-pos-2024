@@ -14,4 +14,4 @@
 <!ELEMENT calorias (#PCDATA)>
 <!ELEMENT tempoPreparo (#PCDATA)>
 
-<!ENTITY reais SYSTEM "R$">
+<!ENTITY reais "R$">
