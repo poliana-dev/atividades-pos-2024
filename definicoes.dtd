@@ -7,6 +7,9 @@
 
 <!ELEMENT nome (#PCDATA)>
 <!ELEMENT descricao (#PCDATA)>
+
 <!ELEMENT preco (#PCDATA)>
+<!ATTLIST preco moeda (BRL|USD) "BRL">
+
 <!ELEMENT calorias (#PCDATA)>
 <!ELEMENT tempoPreparo (#PCDATA)>
