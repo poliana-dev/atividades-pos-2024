@@ -4,45 +4,55 @@
     <prato id="R01" >
         <nome>Macarronada</nome>
         <descricao>Macarrão com sardinha</descricao>
-        <ingredientes>Macarrão, sardinha, tomate, cebola e molho de tomate</ingredientes>
+        <ingredientes>
+            <ingrediente>Macarrão, sardinha, tomate, cebola e molho de tomate</ingrediente>
+        </ingredientes>
         <preco>6.00 reais</preco>
         <calorias>120 calorias</calorias>
         <tempoPreparo>10 minutos</tempoPreparo>
     </prato>
-</cardapio>
 
-    <!-- <refeicao id="R02">
+    <prato id="R02">
         <nome>Pizza</nome>
         <descricao>Pizza de frango com borda</descricao>
-        <ingredientes>Massa de pizza, peito de frango, tomates, queijo mussarela e catupiry</ingredientes>
+        <ingredientes>
+            <ingrediente>Massa de pizza, peito de frango, tomates, queijo mussarela e catupiry</ingrediente>
+        </ingredientes>
         <preco>35.00 reais</preco>
         <calorias>300 calorias</calorias>
-        <tempo>20 minutos</tempo>
-    </refeicao>
+        <tempoPreparo>20 minutos</tempoPreparo>
+    </prato>
 
-    <refeicao id="R03">
+    <prato id="R03">
         <nome>Salada</nome>
         <descricao>agridoce</descricao>
-        <ingredientes>alface, tomate, maça e uva passa</ingredientes>
+        <ingredientes>
+            <ingrediente>alface</ingrediente>
+            <ingrediente>tomate, maça e uva passa</ingrediente>
+        </ingredientes>
         <preco>5 reais</preco>
         <calorias>20 calorias</calorias>
-        <tempo>4 minutos</tempo>
-    </refeicao>
+        <tempoPreparo> 3 minutos</tempoPreparo>
+    </prato>
 
-    <refeicao id="R04">
+    <prato id="R04">
         <nome>Lasanha</nome>
         <descricao>Com carne moida</descricao>
-        <ingredientes>Massa, carne moida, molho de tomate, milho e ervilha, queijo e presunto</ingredientes>
+        <ingredientes>
+            <ingrediente>Massa, carne moida, molho de tomate, milho e ervilha, queijo e presunto</ingrediente></ingredientes>
         <preco>35.00 reais</preco>
         <calorias>400 calorias</calorias>
-        <tempo>25 minutos</tempo>
-    </refeicao>
+        <tempoPreparo>25 minutos</tempoPreparo>
+    </prato>
 
-    <refeicao id="R05">
+    <prato id="R05">
         <nome>Caldo de peixe</nome>
         <descricao>Peixe</descricao>
-        <ingredientes>Peixe tilapia, creme de leite, tomate e cebola, coentro e temperos</ingredientes>
+        <ingredientes>
+            <ingrediente>Peixe tilapia, creme de leite, tomate e cebola, coentro e temperos</ingrediente>
+        </ingredientes>
         <preco>15.00 reais</preco>
         <calorias>120 calorias</calorias>
-        <tempo>20 minutos</tempo>
-    </refeicao> -->
+        <tempoPreparo>20 minutos</tempoPreparo>
+    </prato> 
+</cardapio>
