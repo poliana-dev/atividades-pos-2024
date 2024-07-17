@@ -24,3 +24,144 @@
 
     <!ELEMENT valor (#PCDATA)>
 ]>
+
+<imobiliaria>
+    <!-- imovel com dois telefones um email -->
+    <imovel>
+        <descricao>
+            Prédio com três andares
+        </descricao>
+
+        <proprietario>
+            <nome>Chaguinha</nome>
+            <telefone>86 99999999</telefone>
+            <telefone>86 33333333</telefone>
+            <email>chaguinha@gmail.com</email>
+        </proprietario>
+
+        <endereco>
+            <rua>João Assis</rua>
+            <bairro>Assis</bairro>
+            <cidade>Fulana</cidade>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>100m</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+
+        <valor>150 mil</valor>
+    </imovel>
+
+    <!-- imovel com um telefone e sem numero de endereco-->
+    <imovel>
+        <descricao>
+            Casa amarela e simples
+        </descricao>
+
+        <proprietario>
+            <nome>Joana</nome>
+            <telefone>86 444444444</telefone>
+            <email>joana@gmail.com</email>
+        </proprietario>
+
+        <endereco>
+            <rua>João Assis</rua>
+            <bairro>Assis</bairro>
+            <cidade>Fulana</cidade>
+            <numero>200</numero>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>30m</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+
+        <valor>30 mil</valor>
+    </imovel>
+
+
+    <!-- sem email -->
+    <imovel>
+        <descricao>
+            Casa azul, simples com quintal
+        </descricao>
+
+        <proprietario>
+            <nome>Pedro</nome>
+            <telefone>84 444444444</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>Amorim</rua>
+            <bairro>Panelas</bairro>
+            <cidade>São Pedro</cidade>
+            <numero>10</numero>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>30m</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+
+        <valor>30 mil</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>
+            Casa Rosa, simples com quintal
+        </descricao>
+
+        <proprietario>
+            <nome>Pedro José</nome>
+            <telefone>84 44444467</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>Amorim</rua>
+            <bairro>Panelas</bairro>
+            <cidade>São Pedro</cidade>
+            <numero>15</numero>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>60m</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+
+        <valor>35 mil</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>
+            Mansão, com quintal e piscina
+        </descricao>
+
+        <proprietario>
+            <nome>Anna</nome>
+            <telefone>84 4456564567</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>Amorim</rua>
+            <bairro>Panelas</bairro>
+            <cidade>São Pedro</cidade>
+            <numero>100</numero>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>200m</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+
+        <valor>434 mil</valor>
+    </imovel>
+
+
+
+</imobiliaria>
