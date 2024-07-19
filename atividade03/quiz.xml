@@ -5,66 +5,66 @@
     <disciplina>POS</disciplina>
     <professor>
         <nome>Cirilo</nome>
-        <matricula>23243</matricula>
+        <matrícula>23243</matrícula>
     </professor>
     <turma>Info web 4v</turma>
 
     <data>17/07/2024</data>
 
-    <questoes>
-        <questao>
+    <questões>
+        <questão>
             <enunciado>marque a alternativa correta sobre o git</enunciado>
-            <pontuacao>5</pontuacao>
+            <pontuação>5</pontuação>
             <alternativas>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="sim"></alternativa>
             </alternativas>
-        </questao>
+        </questão>
 
-        <questao>
+        <questão>
             <enunciado>explique diferenças entre git e github</enunciado>
-            <pontuacao>5</pontuacao>
+            <pontuação>5</pontuação>
             <alternativas>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="sim"></alternativa>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="nao"></alternativa>
             </alternativas>
-        </questao>
+        </questão>
 
-        <questao>
+        <questão>
             <enunciado>verdadeiro ou falso sobre xml</enunciado>
-            <pontuacao>5</pontuacao>
+            <pontuação>5</pontuação>
             <alternativas>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="sim"></alternativa>
                 <alternativa correta="sim"></alternativa>
                 <alternativa correta="nao"></alternativa>
             </alternativas>
-        </questao>
+        </questão>
 
-        <questao>
+        <questão>
             <enunciado>quais desses comandos em git esta correto?</enunciado>
-            <pontuacao>5</pontuacao>
+            <pontuação>5</pontuação>
             <alternativas>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="sim"></alternativa>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="nao"></alternativa>
             </alternativas>
-        </questao>
+        </questão>
 
-        <questao>
+        <questão>
             <enunciado>marque a alternativa incorreta sobre os problemas que o gir resolve</enunciado>
-            <pontuacao>5</pontuacao>
+            <pontuação>5</pontuação>
             <alternativas>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="nao"></alternativa>
                 <alternativa correta="sim"></alternativa>
                 <alternativa correta="nao"></alternativa>
             </alternativas>
-        </questao>
-    </questoes>
+        </questão>
+    </questões>
 </quiz>
