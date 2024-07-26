@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cardapio 
+    xmlns="http://cardapios.org" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://cardapios.org cardapio.xsd">
+
+    <prato>
+        
+        <!-- <nome>Lasanha</nome>
+        <descricao>de carne</descricao>
+
+        <ingredientes>
+            <ingrediente>macarrao</ingrediente>
+            <ingrediente>carne</ingrediente>
+
+        </ingredientes> -->
+
+       
+     
+    </prato>
+
+
+
+      
+
+</cardapio>
