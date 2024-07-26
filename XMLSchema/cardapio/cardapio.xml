@@ -5,8 +5,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://cardapios.org cardapio.xsd">
 
-    <prato>
-        
+    <prato id="1">
+    
         <!-- <nome>Lasanha</nome>
         <descricao>de carne</descricao>
 
