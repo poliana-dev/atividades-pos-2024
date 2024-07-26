@@ -5,4 +5,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://pratos.org prato.xsd"> <!-- xmlns = uma url; xmnls:xsi = uma instancia;  xsi:schemaLocation = o xmlns padrão com o arqv xsd-->
 
+    <nome>Torrada</nome>
+    <refeicao>café</refeicao>
+    <ingredientes>
+        <ingrediente>Pão</ingrediente>
+        <ingrediente>Manteiga</ingrediente>
+    </ingredientes>
+    <preco>2.0</preco>
+    <dataCadastro>2024-07-26</dataCadastro>
 </prato>
