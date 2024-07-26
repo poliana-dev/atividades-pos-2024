@@ -1,0 +1,53 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:p="http://pratos.org"
+        targetNamespace="http://pratos.org"
+        elementFormDefault="qualified">
+
+        <!-- determinar a raiz -->
+        <element name="prato">
+            <complexType>
+                <sequence>
+
+                    <element name="nome" >
+                        <simpleType>
+                            <restriction base="string">
+                                <maxLength value="100"></maxLength>
+                            </restriction>
+                        </simpleType>
+                    </element>
+                    
+            
+                    <element name="refeicao">
+                        <simpleType>
+                            <restriction base="string">
+                                <pattern value="café|almoço|janta"/>
+                            </restriction>
+                        </simpleType>
+                    </element>
+                    
+                    <element name="ingredientes">
+                        <complexType>
+                            <sequence>
+                                <element name="ingrediente" type="string"  minOccurs="1" maxOccurs="unbounded"/>
+                            </sequence>
+                        </complexType>
+                    </element>
+
+                    <element name="preco">
+                        <simpleType>
+                            <restriction base="decimal">
+                                <fractionDigits value="2"></fractionDigits>
+                            </restriction>
+                        </simpleType>
+                    </element>
+
+                    <element name="dataCadastro" ></element>
+
+                </sequence>
+            </complexType>
+        </element>
+        
+       
+
+
+</schema>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prato 
+    xmlns="http://pratos.org" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://pratos.org prato.xsd"> <!-- xmlns = uma url; xmnls:xsi = uma instancia;  xsi:schemaLocation = o xmlns padrão com o arqv xsd-->
+
+</prato>
