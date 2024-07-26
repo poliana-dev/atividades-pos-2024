@@ -41,7 +41,9 @@
                         </simpleType>
                     </element>
 
-                    <element name="dataCadastro" ></element>
+                    <element name="dataCadastro" type="date">
+                       
+                    </element>
 
                 </sequence>
             </complexType>
