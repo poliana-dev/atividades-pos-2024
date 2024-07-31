@@ -35,7 +35,6 @@
               </sequence>
         </complexType>
     </element> -->
-    <element name="prato" type="c:tipoPrato"/> <!-- quando for fazer um complex por fora é preciso usar o prefixo pq foi algo criado por voce -->
 
     <element name="cardapio">
         <complexType>
@@ -45,37 +44,38 @@
         </complexType>
     </element>
 
-    
+    <element name="prato" type="c:tipoPrato"/> <!-- quando for fazer um complex por fora é preciso usar o prefixo pq foi algo criado por voce -->
 
-        <complexType name="tipoPrato" mixed="true">
+
+    <complexType name="tipoPrato" mixed="true">
+        
+        <sequence>
+            <element name="nome" type="string"/>
+            <element name="descricao" type="string"></element>
+
+            <element name="ingredientes">
+                <complexType>
+                    <sequence>
+                        <element name="ingrediente" minOccurs="1" maxOccurs="unbounded"/>
+                    </sequence>
+                </complexType>
+            </element>
+
+            <element name="tempoPreparo" type="string"/>
+
+            <element name="calorias" type="positiveInteger"/>
             
-            <sequence>
-                <element name="nome" type="string"/>
-                <element name="descricao" type="string"></element>
-
-                <element name="ingredientes">
-                    <complexType>
-                        <sequence>
-                            <element name="ingrediente" minOccurs="1" maxOccurs="unbounded"/>
-                        </sequence>
-                    </complexType>
-                </element>
-
-                <element name="tempoPreparo" type="string"/>
-
-                <element name="calorias" type="positiveInteger"/>
-                
-                <element name="preco">
-                    <simpleType>
-                        <restriction base="decimal">
-                            <fractionDigits value="2"></fractionDigits>
-                        </restriction>
-                    </simpleType>
-                </element>
-            </sequence>
-            <attribute name="id" type="positiveInteger" use="required"/> 
-            
-        </complexType>
+            <element name="preco">
+                <simpleType>
+                    <restriction base="decimal">
+                        <fractionDigits value="2"></fractionDigits>
+                    </restriction>
+                </simpleType>
+            </element>
+        </sequence>
+        <attribute name="id" type="positiveInteger" use="required"/> 
+        
+    </complexType>
 
 
 </schema>
