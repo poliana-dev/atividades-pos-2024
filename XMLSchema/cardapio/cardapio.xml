@@ -7,21 +7,19 @@
 
     <prato id="1">
     
-        <!-- <nome>Lasanha</nome>
+        <nome>Lasanha</nome>
         <descricao>de carne</descricao>
 
         <ingredientes>
             <ingrediente>macarrao</ingrediente>
             <ingrediente>carne</ingrediente>
 
-        </ingredientes> -->
+        </ingredientes>
 
-       
-     
-    </prato>
+        <tempoPreparo>2 horas</tempoPreparo>
+        <calorias>200</calorias>
+        <preco>6.2</preco>
 
-
-
-      
+    </prato>  
 
 </cardapio>
