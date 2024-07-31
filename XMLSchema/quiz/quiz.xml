@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz versao="1"
+    xmlns="http://provas.org" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://provas.org quiz.xsd">
+
+    <disciplina>llsdl</disciplina>
+    <professor>
+        <nome>Diego</nome>
+    </professor>
+    <turma>Info</turma>
+    <data>2024-07-31</data>
+
+    <questoes>
+        <questao>
+            <enunciado> json é bom bixo?</enunciado>
+            <pontuacao>1</pontuacao>
+            <alternativas correta=""></alternativas>
+           
+        </questao>
+    </questoes>
+
+</quiz>

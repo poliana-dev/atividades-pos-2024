@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:q="http://provas.org"
+    targetNamespace="http://provas.org"
+    elementFormDefault="qualified">
+
+    <element name="quiz">
+        <complexType>
+            <sequence>
+                <element ref="q:disciplina"/>
+                <element ref="q:professor"/>
+                <element ref="q:turma"/>
+                <element ref="q:data"/>
+                <element ref="q:questoes"/>
+            </sequence>
+            <attribute name="versao" type="positiveInteger" use="required"/> 
+        </complexType>
+    </element>
+
+    <element name="disciplina" type="string"/>
+    <element name="turma" type="string"/>
+    <element name="data" type="date"/>
+    <element name="professor" type="q:professores"/>
+    <element name="questoes" type="q:tipoQuestoes"/>
+
+    <complexType name="professores">
+        <sequence>
+            <element name="nome" type="string"/>
+            <element name="matricula" type="string" minOccurs="0" maxOccurs="1"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="tipoQuestoes">
+        <sequence>
+            <element name="questao" type="q:problemas" minOccurs="1" maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="problemas">
+        <sequence>
+            <element name="enunciado" type="string"/>
+            <element name="pontuacao" type="integer"/>
+            <element name="alternativas" type="q:opcoes">
+            </element>
+        </sequence>
+    </complexType>
+
+    <complexType name="opcoes">
+        <sequence>
+            <element name="alternativa" type="string"></element>
+        </sequence>
+        
+    </complexType>
+
+    <simpleType name="respostas">
+        <restriction base="string">
+        
+            <pattern value="sim|nao"/>
+          
+        </restriction>
+        <attribute name="correta" type="q:respostas" use="required"/> 
+    </simpleType>
+
+    
+   
+
+
+</schema>
