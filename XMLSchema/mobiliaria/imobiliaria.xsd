@@ -22,9 +22,9 @@
         <sequence>
             <element name="descricao" type="string"/>
             <element name="proprietario" type="i:proprietarios"/>
-            <element name="endereco" type="i:enderecos"></element>
-            <element name="caracteristicas" type="i:tipoCaracteristica"></element>
-            <element name="valor"></element>
+            <element name="endereco" type="i:enderecos"/>
+            <element name="caracteristicas" type="i:tipoCaracteristica"/>
+            <element name="valor" type="integer"/>
         </sequence>
     </complexType>
 
