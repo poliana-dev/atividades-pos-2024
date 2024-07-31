@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<imobiliaria 
+    xmlns="http://moveis.org" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://moveis.org imobiliaria.xsd">
+
+    <!-- dois telefones um email e sem numero -->
+    <imovel>
+        <descricao>sd</descricao>
+
+        <proprietario>
+            <nome>fulano</nome>
+            <email>sidisjdijfi</email>
+            <telefone>348934983498</telefone>
+            <telefone>478587647856</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>dfdf</rua>
+            <bairro>dfdfgd</bairro>
+            <cidade>dfgdfg</cidade>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>34.3</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+
+        <valor>34534</valor>
+    </imovel>
+
+    <!-- dois emails um telefone e com numero -->
+    <imovel>
+        <descricao>kskdksd</descricao>
+        <proprietario>
+            <nome>fulana</nome>
+            <email>sidisjdijfi</email>
+            <email>eirityerytiu</email>
+            <telefone>478587647856</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>dfdf</rua>
+            <bairro>dfdfgd</bairro>
+            <cidade>dfgdfg</cidade>
+            <numero>2</numero>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>34.3</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+
+        <valor>34534</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>sdfsdfsdfsdfsdf</descricao>
+        <proprietario>
+            <nome>izac</nome>
+            <email>izac.gmail</email>
+            <email>eirityerytiu</email>
+            <telefone>478587647856</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>dfdf</rua>
+            <bairro>dfdfgd</bairro>
+            <cidade>dfgdfg</cidade>
+            <numero>2</numero>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>34.3</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+
+        <valor>34534</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>casa branca</descricao>
+        <proprietario>
+            <nome>maria</nome>
+            <email>maria.gmail</email>
+            <email>eirityerytiu</email>
+            <telefone>478587647856</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>dfdf</rua>
+            <bairro>dfdfgd</bairro>
+            <cidade>dfgdfg</cidade>
+            <numero>2</numero>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>34.3</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+
+        <valor>34534</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>casa azul</descricao>
+        <proprietario>
+            <nome>joana</nome>
+            <email>joana.gmail</email>
+            <email>eirityerytiu</email>
+            <telefone>478587647856</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>dfdf</rua>
+            <bairro>dfdfgd</bairro>
+            <cidade>dfgdfg</cidade>
+            <numero>2</numero>
+        </endereco>
+
+        <caracteristicas>
+            <tamanho>34.3</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+
+        <valor>34534</valor>
+    </imovel>
+    
+</imobiliaria> 
