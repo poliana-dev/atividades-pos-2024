@@ -5,37 +5,6 @@
     targetNamespace="http://cardapios.org"
     elementFormDefault="qualified">
 
-
-   
-        <!-- <complexType mixed="true">
-            <sequence>
-                <element name="id" type="positiveInteger"/>
-                <element name="nome" type="string"/>
-                <element name="descricao"></element>
-
-                <element name="ingredientes">
-                    <complexType>
-                        <sequence>
-                            <element name="ingrediente" minOccurs="1" maxOccurs="unbounded"/>
-                        </sequence>
-                    </complexType>
-                </element>
-
-                <element name="tempoPreparo" type="string"/>
-
-                <element name="calorias" type="positiveInteger"/>
-
-                <element name="preco">
-                    <simpleType>
-                        <restriction base="decimal">
-                            <fractionDigits value="2"></fractionDigits>
-                        </restriction>
-                    </simpleType>
-                </element>
-              </sequence>
-        </complexType>
-    </element> -->
-
     <element name="cardapio">
         <complexType>
             <sequence>
