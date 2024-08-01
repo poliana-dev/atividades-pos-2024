@@ -1,0 +1,19 @@
+{
+    "imobiliaria":{
+        "imovel":{
+            "descricao":"casa branca",
+            "proprietario":"thiago",
+            "endereco":{
+                "rua": "momento grau",
+                "bairro": "maria estela",
+                "numero":12
+            },
+            "caracterista":{
+                "tamanho":100.5,
+                "numQuartos":3,
+                "numBanheiros": 2
+            },
+            "valor": 100
+        }
+    }
+}
