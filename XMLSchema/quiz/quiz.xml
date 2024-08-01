@@ -16,7 +16,11 @@
         <questao>
             <enunciado> json é bom bixo?</enunciado>
             <pontuacao>1</pontuacao>
-            <alternativas correta=""></alternativas>
+            <alternativas>
+                <alternativa correta="sim">claro</alternativa>
+                <alternativa correta="nao">sim</alternativa>
+                <alternativa correta="nao">nao</alternativa>
+            </alternativas>
            
         </questao>
     </questoes>
