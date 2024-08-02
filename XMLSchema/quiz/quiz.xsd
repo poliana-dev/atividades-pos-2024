@@ -45,25 +45,28 @@
             </element>
         </sequence>
     </complexType>
-
+    
     <complexType name="opcoes">
         <sequence>
-            <element name="alternativa" type="string"></element>
+            <element name="alternativa" maxOccurs="unbounded">
+                <!-- o elemento alternativa é um tipo complexo que possui um conteudo simples (texto) -->
+                <complexType>
+                    <simpleContent>
+                        <!-- extensao do tipo texto, add atributo -->
+                        <extension base="string">
+                            <attribute name="correta" type="q:verificacao" use="required"/>
+                        </extension>
+                    </simpleContent>
+                </complexType>
+            </element>
         </sequence>
-        
     </complexType>
 
-    <simpleType name="respostas">
+    <simpleType name="verificacao">
         <restriction base="string">
-        
-            <pattern value="sim|nao"/>
-          
+            <enumeration value="sim"/>
+            <enumeration value="nao"/>
         </restriction>
-        <attribute name="correta" type="q:respostas" use="required"/> 
     </simpleType>
-
-    
-   
-
 
 </schema>

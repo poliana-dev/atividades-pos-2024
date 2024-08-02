@@ -1,0 +1,16 @@
+{
+    "cardapio":
+        [
+            {"prato":{
+                "nome": "feijoada",
+                "descricao": "melhor do mundo",
+                "ingredientes":["feijao", "calabresa","temperos"],
+                "tempoPreparo": "40 minutos",
+                "calorias": "250kal",
+                "preco": 5,
+                "id":1   
+            }
+            }
+            
+        ]
+    }

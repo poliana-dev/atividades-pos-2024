@@ -1,0 +1,30 @@
+{
+    "quiz":{
+        "disciplina": "geografia",
+        "professor":{
+            "nome": "jamilton",
+            "matricula": "2324234"
+        },
+        "data": "2024-07-31",
+        "questoes":{
+            "enunciado": "pq a terra é redonda?",
+            "pontuacao": "1",
+            "questao":{
+                "alternativas":{
+                    "alternativa":[
+                        {
+                            "correta": "sim",
+                            "value": "porque sim"
+                        },
+                        {
+                            "correta": "nao",
+                            "value": "não é redonda"
+                        }
+                    ]
+                }
+
+            }
+        }
+
+    }
+}
