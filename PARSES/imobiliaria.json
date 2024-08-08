@@ -1,0 +1,67 @@
+[
+  {
+    "Descri\u00e7\u00e3o": "Casa com jardim",
+    "Nome": "Carlos Silva",
+    "Email": "carlos.silva@example.com",
+    "Telefone": "123456789",
+    "Cidade": "S\u00e3o Paulo",
+    "Rua": "Rua das Flores",
+    "Bairro": "Jardim Primavera",
+    "N\u00famero de quartos": "3",
+    "N\u00famero de banheiros": "2",
+    "Tamanho": "120.5",
+    "Valor": "500000"
+  },
+  {
+    "Descri\u00e7\u00e3o": "Apartamento no centro",
+    "Nome": "Maria Oliveira",
+    "Email": "maria.oliveira@example.com",
+    "Telefone": "1122334455",
+    "Cidade": "Rio de Janeiro",
+    "Rua": "Avenida Central",
+    "Bairro": "Centro",
+    "N\u00famero de quartos": "2",
+    "N\u00famero de banheiros": "1",
+    "Tamanho": "85.0",
+    "Valor": "300000"
+  },
+  {
+    "Descri\u00e7\u00e3o": "Ch\u00e1cara com piscina",
+    "Nome": "Jos\u00e9 Santos",
+    "Email": "jose.santos@example.com",
+    "Telefone": "2233445566",
+    "Cidade": "Belo Horizonte",
+    "Rua": "Estrada da Serra",
+    "Bairro": "S\u00edtios Reunidos",
+    "N\u00famero de quartos": "5",
+    "N\u00famero de banheiros": "3",
+    "Tamanho": "200.0",
+    "Valor": "800000"
+  },
+  {
+    "Descri\u00e7\u00e3o": "Casa t\u00e9rrea",
+    "Nome": "Fernanda Lima",
+    "Email": "fernanda.lima@example.com",
+    "Telefone": "3344556677",
+    "Cidade": "Curitiba",
+    "Rua": "Rua dos Ip\u00eas",
+    "Bairro": "Vila Nova",
+    "N\u00famero de quartos": "4",
+    "N\u00famero de banheiros": "2",
+    "Tamanho": "150.0",
+    "Valor": "450000"
+  },
+  {
+    "Descri\u00e7\u00e3o": "Apartamento duplex",
+    "Nome": "Roberta Souza",
+    "Email": "roberta.souza@example.com",
+    "Telefone": "4455667788",
+    "Cidade": "Porto Alegre",
+    "Rua": "Avenida das Am\u00e9ricas",
+    "Bairro": "Zona Sul",
+    "N\u00famero de quartos": "3",
+    "N\u00famero de banheiros": "3",
+    "Tamanho": "180.0",
+    "Valor": "600000"
+  }
+]
