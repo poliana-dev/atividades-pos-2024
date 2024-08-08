@@ -4,132 +4,116 @@
     xmlns="http://moveis.org" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://moveis.org imobiliaria.xsd">
-
+    
     <!-- dois telefones um email e sem numero -->
     <imovel>
-        <descricao>sd</descricao>
-
+        <descricao>Casa com jardim</descricao>
         <proprietario>
-            <nome>fulano</nome>
-            <email>sidisjdijfi</email>
-            <telefone>348934983498</telefone>
-            <telefone>478587647856</telefone>
+            <nome>Carlos Silva</nome>
+            <email>carlos.silva@example.com</email>
+            <telefone>123456789</telefone>
+            <telefone>987654321</telefone>
         </proprietario>
-
         <endereco>
-            <rua>dfdf</rua>
-            <bairro>dfdfgd</bairro>
-            <cidade>dfgdfg</cidade>
+            <rua>Rua das Flores</rua>
+            <bairro>Jardim Primavera</bairro>
+            <cidade>São Paulo</cidade>
         </endereco>
-
         <caracteristicas>
-            <tamanho>34.3</tamanho>
-            <numQuartos>4</numQuartos>
+            <tamanho>120.5</tamanho>
+            <numQuartos>3</numQuartos>
             <numBanheiros>2</numBanheiros>
         </caracteristicas>
-
-        <valor>34534</valor>
+        <valor>500000</valor>
     </imovel>
-
+    
     <!-- dois emails um telefone e com numero -->
     <imovel>
-        <descricao>kskdksd</descricao>
+        <descricao>Apartamento no centro</descricao>
         <proprietario>
-            <nome>fulana</nome>
-            <email>sidisjdijfi</email>
-            <email>eirityerytiu</email>
-            <telefone>478587647856</telefone>
+            <nome>Maria Oliveira</nome>
+            <email>maria.oliveira@example.com</email>
+            <email>maria.o@example.com</email>
+            <telefone>1122334455</telefone>
         </proprietario>
-
         <endereco>
-            <rua>dfdf</rua>
-            <bairro>dfdfgd</bairro>
-            <cidade>dfgdfg</cidade>
-            <numero>2</numero>
+            <rua>Avenida Central</rua>
+            <bairro>Centro</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>101</numero>
         </endereco>
-
         <caracteristicas>
-            <tamanho>34.3</tamanho>
-            <numQuartos>4</numQuartos>
-            <numBanheiros>2</numBanheiros>
+            <tamanho>85.0</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
         </caracteristicas>
-
-        <valor>34534</valor>
+        <valor>300000</valor>
     </imovel>
-
+    
     <imovel>
-        <descricao>sdfsdfsdfsdfsdf</descricao>
+        <descricao>Chácara com piscina</descricao>
         <proprietario>
-            <nome>izac</nome>
-            <email>izac.gmail</email>
-            <email>eirityerytiu</email>
-            <telefone>478587647856</telefone>
+            <nome>José Santos</nome>
+            <email>jose.santos@example.com</email>
+            <email>j.santos@example.com</email>
+            <telefone>2233445566</telefone>
         </proprietario>
-
         <endereco>
-            <rua>dfdf</rua>
-            <bairro>dfdfgd</bairro>
-            <cidade>dfgdfg</cidade>
-            <numero>2</numero>
+            <rua>Estrada da Serra</rua>
+            <bairro>Sítios Reunidos</bairro>
+            <cidade>Belo Horizonte</cidade>
+            <numero>500</numero>
         </endereco>
-
         <caracteristicas>
-            <tamanho>34.3</tamanho>
-            <numQuartos>4</numQuartos>
-            <numBanheiros>2</numBanheiros>
+            <tamanho>200.0</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>3</numBanheiros>
         </caracteristicas>
-
-        <valor>34534</valor>
+        <valor>800000</valor>
     </imovel>
-
+    
     <imovel>
-        <descricao>casa branca</descricao>
+        <descricao>Casa térrea</descricao>
         <proprietario>
-            <nome>maria</nome>
-            <email>maria.gmail</email>
-            <email>eirityerytiu</email>
-            <telefone>478587647856</telefone>
+            <nome>Fernanda Lima</nome>
+            <email>fernanda.lima@example.com</email>
+            <email>f.lima@example.com</email>
+            <telefone>3344556677</telefone>
         </proprietario>
-
         <endereco>
-            <rua>dfdf</rua>
-            <bairro>dfdfgd</bairro>
-            <cidade>dfgdfg</cidade>
-            <numero>2</numero>
+            <rua>Rua dos Ipês</rua>
+            <bairro>Vila Nova</bairro>
+            <cidade>Curitiba</cidade>
+            <numero>45</numero>
         </endereco>
-
         <caracteristicas>
-            <tamanho>34.3</tamanho>
+            <tamanho>150.0</tamanho>
             <numQuartos>4</numQuartos>
             <numBanheiros>2</numBanheiros>
         </caracteristicas>
-
-        <valor>34534</valor>
+        <valor>450000</valor>
     </imovel>
-
+    
     <imovel>
-        <descricao>casa azul</descricao>
+        <descricao>Apartamento duplex</descricao>
         <proprietario>
-            <nome>joana</nome>
-            <email>joana.gmail</email>
-            <email>eirityerytiu</email>
-            <telefone>478587647856</telefone>
+            <nome>Roberta Souza</nome>
+            <email>roberta.souza@example.com</email>
+            <email>r.souza@example.com</email>
+            <telefone>4455667788</telefone>
         </proprietario>
-
         <endereco>
-            <rua>dfdf</rua>
-            <bairro>dfdfgd</bairro>
-            <cidade>dfgdfg</cidade>
-            <numero>2</numero>
+            <rua>Avenida das Américas</rua>
+            <bairro>Zona Sul</bairro>
+            <cidade>Porto Alegre</cidade>
+            <numero>300</numero>
         </endereco>
-
         <caracteristicas>
-            <tamanho>34.3</tamanho>
-            <numQuartos>4</numQuartos>
-            <numBanheiros>2</numBanheiros>
+            <tamanho>180.0</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>3</numBanheiros>
         </caracteristicas>
-
-        <valor>34534</valor>
+        <valor>600000</valor>
     </imovel>
     
 </imobiliaria> 
