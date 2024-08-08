@@ -28,21 +28,24 @@ for imovel in imoveis:
 
     valor = imovel.getElementsByTagName('valor')[0].firstChild.nodeValue
 
-    imobiliaria.append(descricao)
-    imobiliaria.append(nome_prop)
-    imobiliaria.append(email_prop)
-    imobiliaria.append(telefone_prop)
-    imobiliaria.append(rua)
-    imobiliaria.append(bairro)
-    imobiliaria.append(cidade)
-    imobiliaria.append(numQuartos)
-    imobiliaria.append(numBanheiros)
-    imobiliaria.append(tamanho)
-    imobiliaria.append(valor)
+    imobiliaria.append({
+        "Descrição": descricao,
+        "Nome": nome_prop,
+        "Email": email_prop,
+        "Telefone": telefone_prop,
+        "Cidade": cidade,
+        "Rua": rua,
+        "Bairro": bairro,
+        "Cidade": cidade,
+        "Número de quartos": numQuartos,
+        "Número de banheiros": numBanheiros,
+        "Tamanho": tamanho,
+        "Valor": valor
+    })
     
     moveis= imobiliaria
 
-# with open ('imobiliaria.json', 'w') as json_file:
-#     json.dump(moveis, json_file,indent=2)
+with open ('PARSES/imobiliaria.json', 'w') as json_file:
+    json.dump(imobiliaria, json_file,indent=2)
 
-# json_string = json.dumps(moveis)
+json_string = json.dumps(imobiliaria)
