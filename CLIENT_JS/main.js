@@ -1,13 +1,12 @@
 async function loadWars() {
     try {
         const url = 'https://swapi.dev/api/people/';
-        const response = await fetch(url); // Espera a resposta da API
-        const data = await response.json(); // Espera a conversão para JSON
+        const response = await fetch(url); 
+        const data = await response.json(); 
 
         const people = data.results; // Acessa o array de personagens
         const peopleAccordion = document.getElementById('people-accordion');
-        peopleAccordion.innerHTML = ''; // Limpa o accordion anterior
-
+        peopleAccordion.innerHTML = '';
         people.forEach((person, index) => {
 
             const accordionItem = document.createElement('div');
@@ -32,7 +31,7 @@ async function loadWars() {
             accordionItem.querySelector('.accordion-button').addEventListener('click', () => {
                 const detailsElement = document.getElementById(`people-details-${index}`);
                 if (!detailsElement.classList.contains('loaded')) {
-                    loadPeopleDetails(person.url, index); // Usa o ID do personagem
+                    loadPeopleDetails(person.url, index); // Usa a url do personagem
                 }
             });
         });
@@ -46,7 +45,7 @@ async function loadWars() {
 async function loadPeopleDetails(personId, index) {
     try {
         const response = await fetch(personId);
-        const person = await response.json(); // Espera a conversão para JSON
+        const person = await response.json();
 
         const peopleDetails = document.getElementById(`people-details-${index}`);
         peopleDetails.innerHTML = `
@@ -64,5 +63,4 @@ async function loadPeopleDetails(personId, index) {
     }
 }
 
-// Adiciona o evento de clique no botão para carregar os personagens
 document.getElementById('load-people-btn').addEventListener('click', loadWars);
