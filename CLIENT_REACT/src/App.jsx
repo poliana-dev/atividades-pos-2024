@@ -1,7 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
+
+import { fetchPeople, fetchPersonDetails } from "./wrapper-api"
+import { fetchPlanets, fetchPlanetsDetails } from "./wrapper-api"
+import { fetchShips, fetchShipsDetails } from "./wrapper-api"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,3 +37,29 @@ function App() {
 }
 
 export default App
+
+async function loadPeople() {
+
+  const people = await fetchPeople(); 
+
+  return(
+    
+    <>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+      </div>
+    
+    
+    </>
+  )
+
+}
