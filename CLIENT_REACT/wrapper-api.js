@@ -21,7 +21,7 @@ export async function fetchPlanets() {
 
 export async function fetchPlanetsDetails (planetUrl) {
     const response = await fetch(planetUrl);
-    return await response.json(); // detalhes do personagem
+    return await response.json(); // detalhes do planetas
 }
 
 
