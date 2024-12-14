@@ -1,34 +1,3 @@
-
-// const API_BASE_URL = 'http://127.0.0.1:8000'; // Substitua pelo URL da sua API
-
-// export async function fetchArtistas() {
-//     const response = await fetch(`${API_BASE_URL}/artistas/`);
-//     const data = await response.json();
-//     return data;
-// }
-
-// export async function fetchArtistasDetails(artista_id) {
-//     const response = await fetch(artista_id);
-//     return await response.json(); 
-// }
-
-
-// export async function fetchAlbuns(artista_id) {
-//     const response = await fetch(`${API_BASE_URL}/artistas/${artista_id}/albuns/`);
-//     const data = await response.json();
-//     return data;
-// }
-
-// export async function fetchAlbunsDetails(album_id) {
-//     const response = await fetch(album_id);
-//     return await response.json();
-// }
-
-// export async function fetchMusicas(album_id) {
-//     const response = await fetch(`${API_BASE_URL}/albuns/${album_id}/musicas/`);
-//     const data = await response.json();
-//     return data;
-// }
 const API_BASE_URL = 'http://127.0.0.1:8000'; 
 
 // Busca lista de artistas
@@ -72,6 +41,14 @@ export async function fetchMusicas(album_id) {
     const response = await fetch(`${API_BASE_URL}/albuns/${album_id}/musicas/`);
     if (!response.ok) {
         throw new Error(`Erro ao buscar músicas do álbum ${album_id}: ${response.statusText}`);
+    }
+    return await response.json();
+}
+
+export async function fetchMusicasDetails(album_id, artista_id) {
+    const response = await fetch(`${API_BASE_URL}/artistas/${artista_id}/albuns/${album_id}/musicas`);
+    if (!response.ok) {
+        throw new Error(`Erro ao buscar detalhes do álbum ${album_id}: ${response.statusText}`);
     }
     return await response.json();
 }
