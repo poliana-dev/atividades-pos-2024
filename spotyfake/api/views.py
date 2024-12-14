@@ -17,12 +17,20 @@ class AlbumViewSet(viewsets.ModelViewSet):
     """
     Permite a manipulação de dados de Albuns
     """
-    queryset = Album.objects.all()
     serializer_class = AlbumSerializer
+    def get_queryset(self):
+        artista_pk = self.kwargs.get('artista_pk')
+        if artista_pk:
+            return Album.objects.filter(artista_id=artista_pk)
+        return Album.objects.all()
 
 class MusicaViewSet(viewsets.ModelViewSet):
     """
     Permite a manipulação de dados de Músicas
     """
-    queryset = Musica.objects.all()
     serializer_class = MusicaSerializer
+    def get_queryset(self):
+        album_pk = self.kwargs.get('album_pk')
+        if album_pk:
+            return Musica.objects.filter(album_id=album_pk)
+        return Musica.objects.all()

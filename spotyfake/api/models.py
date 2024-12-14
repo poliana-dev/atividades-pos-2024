@@ -14,7 +14,7 @@ class Album(models.Model):
     artista = models.ForeignKey(Artista, on_delete=models.CASCADE)
     nome = models.CharField(max_length=100)
     ano = models.IntegerField()
-    capa = models.ImageField(upload_to='album_covers/', blank=True, null=True) # upload_to especifica o diretório onde as imagens serão armazenadas
+    capa = models.ImageField(upload_to='album_covers/', blank=True, null=True) #upload_to especifica o diretório onde as imagens serão armazenadas
 
     def __str__(self):
         return self.nome

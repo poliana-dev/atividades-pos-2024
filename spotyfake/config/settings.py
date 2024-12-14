@@ -127,13 +127,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "https://sub.example.com",
-    "http://localhost:8080",
-    "http://127.0.0.1:8080",
-]
-
-
 MEDIA_URL = '/media/'  # URL base para acessar arquivos de mídia
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Diretório para salvar os arquivos de imagem
+
+CORS_ALLOW_ALL_ORIGINS = True
